@@ -1,0 +1,18 @@
+.container .row{
+  margin-top: 10px;
+
+}
+#carousel{
+  margin-top: 50px;
+}
+.navbar{
+  background-color: #2E8B57;
+}
+ .navbar-brand{
+  font-size: 2.5em;
+
+}
+  li a{
+  font-size: 1.2em;
+
+}
