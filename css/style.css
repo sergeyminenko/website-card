@@ -16,3 +16,26 @@
   font-size: 1.2em;
 
 }
+.item {
+background:
+  url("5images.jpg") 60% 90% no-repeat,
+  url("sajt-vizitka.png") 40% 50% no-repeat,
+  url("fff.jpg") 10% 20% no-repeat #393;
+  background-size: 250px  150px;}
+
+  .carousel {
+    height: 150px !important;
+
+  }
+  .carousel-inner {
+    overflow: visible;
+  }
+  .carousel-inner img {
+    left:   50%;
+    max-width: none !important;
+    min-height: 150px;
+    min-width: 20%;
+
+    top: 150px;
+    transform: translate(-10%,-10%);
+  }
