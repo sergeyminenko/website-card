@@ -21,14 +21,14 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-                 <a class="navbar-brand"href="#">MinenkoSergey</a>
+                 <a class="navbar-brand"href="home.html">MinenkoSergey</a>
             </div>
             <div class="collapse navbar-collapse" id="responsive-menu">
               <ul class="nav navbar-nav">
-                <li><a href="#">Главная</a></li>
+                <li><a href="home.html">Главная</a></li>
 
-                <li><a href="#">Обо мне</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a href="about_me.html">Обо мне</a></li>
+                <li><a href="contakts.html">Контакты</a></li>
               </ul>
 
             </div>
@@ -74,6 +74,10 @@
            </a>
 
          </div>
+         <br>
+         <br>
+         <div id="up"></div>
+         <a href="javaScript://0"onclick="slowScroll('#more')"><i class="fa fa-angle-double-down fa-2x" aria-hidden="true">Вниз</i></a>
          <div class="container">
            <div class="row">
 
@@ -108,49 +112,66 @@
 <li> Пас­порт­ные дан­ные для ре­ги­стра­ции до­мен­но­го име­ни (ес­ли у вас его еще нет). По­дроб­нее об этом чи­тай­те в раз­де­ле <a href="/hosting/">«Хо­стинг сай­тов»</a>. </li>
 </ul>
 <h1>Сто­и­мость раз­ра­бот­ки сай­та-ви­зит­ки</h1>
-<p>Ес­ли вас за­ин­те­ре­со­ва­ло на­ше пред­ло­же­ние по со­зда­нию сай­та-ви­зит­ки в Санкт-Пе­тер­бур­ге или у вас по­яви­лись во­про­сы, свя­жи­тесь с на­ми лю­бым удоб­ным для вас спо­со­бом. На­ши спе­ци­а­ли­сты бу­дут ра­ды вам по­мочь!</p>
-<p class="sm">Для по­лу­че­ния по­дроб­ной ин­фор­ма­ции о сто­и­мо­сти сай­та с кон­крет­ным на­бо­ром функ­ций, по­жа­луй­ста, за­пол­ни­те <a href="/contacts/form">online-фор­му пред­ва­ри­тель­но­го за­ка­за</a> — от­прав­ка за­про­са за­ни­ма­ет око­ло ми­ну­ты и ни к че­му вас не обя­зы­ва­ет!</p>
+<p>Ес­ли вас за­ин­те­ре­со­ва­ло на­ше пред­ло­же­ние по со­зда­нию сай­та-ви­зит­ки  или у вас по­яви­лись во­про­сы, свя­жи­тесь с на­ми лю­бым удоб­ным для вас спо­со­бом. На­ши спе­ци­а­ли­сты бу­дут ра­ды вам по­мочь!</p>
+<p class="sm">Для по­лу­че­ния по­дроб­ной ин­фор­ма­ции о сто­и­мо­сти сай­та с кон­крет­ным на­бо­ром функ­ций, по­жа­луй­ста, за­пол­ни­те <a href="contakts.html">online-фор­му пред­ва­ри­тель­но­го за­ка­за</a> — от­прав­ка за­про­са за­ни­ма­ет око­ло ми­ну­ты и ни к че­му вас не обя­зы­ва­ет!</p>
 
          </div>
 
        </div>
+       <div id="more"> <a href="javaScript://0"onclick="slowScroll('#up')"><i class="fa fa-angle-double-up fa-2x" aria-hidden="true">Наверх</i></a></div>
+
+     <script src="js/jquery-3.2.1.min.js"charset="utf-8"></script>
+
+     <script>
+       function slowScroll (id){
+         var offset=0;
+         $('html,body').animate({
+           scrollTop: $(id).offset().top-offset
+         }, 500);
+         return false;
+       }
+
+     </script>
+
+       <br>
+       <hr>
        <div class="row">
          <div class="col-lg-12">
            <div class="col-md-3">
              <ul class="list-unstyled">
-               <li>GitHub<li>
-               <li><a href="#">About us</a></li>
-               <li><a href="#">Blog</a></li>
-               <li><a href="#">Contact & support</a></li>
-               <li><a href="#">Enterprise</a></li>
-               <li><a href="#">Site status</a></li>
+               <li class="title">Соцсети<li>
+                 <li><a href="https://vk.com/"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                 <li><a href="https://twitter.com/?lang=ru"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                 <li><a href="https://www.instagram.com/?hl=ru"><<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                 <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
              </ul>
            </div>
            <div class="col-md-3">
              <ul class="list-unstyled">
-               <li>Applications<li>
-               <li><a href="#">Product for Mac</a></li>
-               <li><a href="#">Product for Windows</a></li>
-               <li><a href="#">Product for Eclipse</a></li>
-               <li><a href="#">Product mobile apps</a></li>
+               <li class="title">Меню<li>
+               <li><a href="home.html">Главная</a></li>
+               <li><a href="about_me.html">Обо мне</a></li>
+               <li><a href="contakts.html">Контакты</a></li>
+
              </ul>
            </div>
            <div class="col-md-3">
              <ul class="list-unstyled">
-               <li>Services<li>
-               <li><a href="#">Web analytics</a></li>
-               <li><a href="#">Presentations</a></li>
-               <li><a href="#">Code snippets</a></li>
-               <li><a href="#">Job board</a></li>
+               <li class="title">Наши продукты<li>
+               <li>Сайт визитка</li>
+               <li>Сайт одностраничка</li>
+               <li>Портфолио</li>
+               <li>Интернет магазин</li>
              </ul>
            </div>
            <div class="col-md-3">
              <ul class="list-unstyled">
-               <li>Documentation<li>
-               <li><a href="#">Product Help</a></li>
-               <li><a href="#">Developer API</a></li>
-               <li><a href="#">Product Markdown</a></li>
-               <li><a href="#">Product Pages</a></li>
+               <li class="title"><a href="contakts.html">Контакты</a><li>
+               <li> Тел:+30676370543</li>
+               <li> Тел:+30508499303</li>
+               <li> Email:minenkosergey06@gmail.com</li>
+               <li> Skype:Sergey Minenko</li>
+
              </ul>
            </div>
          </div>
@@ -159,9 +180,9 @@
        <div class="row">
          <div class="col-lg-12">
            <div class="col-md-8">
-             <a href="#">Terms of Service</a>
-             <a href="#">Privacy</a>
-             <a href="#">Security</a>
+             <a href="#"></a>
+             <a href="#"></a>
+             <a href="#"></a>
            </div>
            <div class="col-md-4">
              <p class="muted pull-right">© 2017 Company Name.MinenkoSergey</p>

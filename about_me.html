@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WebsiteCard</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+         <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button"class="navbar-toggle"data-toggle="collapse"data-target="#responsive-menu">
+                <span class="sr-only">Открыть навигацыю</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+                 <a class="navbar-brand"href="home.html">MinenkoSergey</a>
+            </div>
+            <div class="collapse navbar-collapse" id="responsive-menu">
+              <ul class="nav navbar-nav">
+                <li><a href="home.html">Главная</a></li>
+
+                <li><a href="about_me.html">Обо мне</a></li>
+                <li><a href="contakts.html">Контакты</a></li>
+              </ul>
+
+            </div>
+          </div>
+         </div>
+          <div id="carousel"class="carousel slide">
+             <!--идинтификаторы-->
+            <ol class="carousel-indicators">
+              <li class="active"data-target="#carousel"data-slide="0"></li>
+              <li data-target="#carousel"data-slide="1"></li>
+              <li data-target="#carousel"data-slide="2"></li>
+            </ol>
+            <!--Слайды-->
+           <div class="carousel-inner">
+             <div class="item active">
+               <img src="css/img/sajt-vizitka.png"alt="">
+               <div class="carousel-caption">
+                 <h3>Сайт визитку</h3>
+                 <p>Заказуем</p>
+               </div>
+             </div>
+             <div class="item">
+               <img src="css/img/5images.jpg"alt="">
+               <div class="carousel-caption">
+                 <h3>Современного </h3>
+                 <p>Любого</p>
+               </div>
+             </div>
+             <div class="item">
+               <img src="css/img/fff.jpg"alt="">
+               <div class="carousel-caption">
+                 <h3>Дизайна</h3>
+                 <p>На ваш вкус</p>
+               </div>
+             </div>
+           </div>
+             <!-- стрелки переключатели слайдов-->
+           <a href="#carousel"class="left carousel-control"data-slide="prev">
+             <span class="glyphicon glyphicon-chevron-left"><span>
+           </a>
+           <a href="#carousel"class="right carousel-control"data-slide="next">
+             <span class="glyphicon glyphicon-chevron-right"><span>
+           </a>
+
+         </div>
+         <br>
+         <br>
+         <div id="up"></div>
+         <a href="javaScript://0"onclick="slowScroll('#more')"><i class="fa fa-angle-double-down fa-2x" aria-hidden="true">Вниз</i></a>
+         <div class="container">
+           <div class="row">
+             <img src="css/img/web-portfolio-image.png"alt="">
+
+
+         </div>
+
+       </div>
+       <div id="more"> <a href="javaScript://0"onclick="slowScroll('#up')"><i class="fa fa-angle-double-up fa-2x" aria-hidden="true">Наверх</i></a></div>
+
+     <script src="js/jquery-3.2.1.min.js"charset="utf-8"></script>
+
+     <script>
+       function slowScroll (id){
+         var offset=0;
+         $('html,body').animate({
+           scrollTop: $(id).offset().top-offset
+         }, 500);
+         return false;
+       }
+
+     </script>
+
+       <br>
+       <hr>
+       <div class="row">
+         <div class="col-lg-12">
+           <div class="col-md-3">
+             <ul class="list-unstyled">
+               <li class="title">Соцсети<li>
+                 <li><a href="https://vk.com/"><i class="fa fa-vk" aria-hidden="true"></i></a></li>
+                 <li><a href="https://twitter.com/?lang=ru"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                 <li><a href="https://www.instagram.com/?hl=ru"><<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                 <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+             </ul>
+           </div>
+           <div class="col-md-3">
+             <ul class="list-unstyled">
+               <li class="title">Меню<li>
+               <li><a href="home.html">Главная</a></li>
+               <li><a href="about_me.html">Обо мне</a></li>
+               <li><a href="contakts.html">Контакты</a></li>
+
+             </ul>
+           </div>
+           <div class="col-md-3">
+             <ul class="list-unstyled">
+               <li class="title">Наши продукты<li>
+               <li>Сайт визитка</li>
+               <li>Сайт одностраничка</li>
+               <li>Портфолио</li>
+               <li>Интернет магазин</li>
+             </ul>
+           </div>
+           <div class="col-md-3">
+             <ul class="list-unstyled">
+               <li class="title"><a href="contakts.html">Контакты</a><li>
+               <li> Тел:+30676370543</li>
+               <li> Тел:+30508499303</li>
+               <li> Email:minenkosergey06@gmail.com</li>
+               <li> Skype:Sergey Minenko</li>
+
+             </ul>
+           </div>
+         </div>
+       </div>
+       <hr>
+       <div class="row">
+         <div class="col-lg-12">
+           <div class="col-md-8">
+             <a href="#"></a>
+             <a href="#"></a>
+             <a href="#"></a>
+           </div>
+           <div class="col-md-4">
+             <p class="muted pull-right">© 2017 Company Name.MinenkoSergey</p>
+           </div>
+         </div>
+       </div>
+      </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+     $ (function () {
+       $('[data-toggle="tooltip"]') .tooltip();
+       $('[data-toggle="popover"]') .popover();
+
+     });
+
+
+
+
+  </body>
+</html>

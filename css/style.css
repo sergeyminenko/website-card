@@ -39,3 +39,23 @@ background:
     top: 150px;
     transform: translate(-10%,-10%);
   }
+
+
+  .fa-vk:hover{
+    color: #4e729a;
+  }
+
+  .fa-twitter:hover{
+    color: #55acee;
+  }
+
+  .fa-instagram:hover{
+    color: #FF69B4;
+  }
+
+  .fa-facebook:hover{
+    color: #3a5795;
+  }
+  .title{
+    font-size: 1.5em;
+  }
