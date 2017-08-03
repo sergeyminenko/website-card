@@ -63,3 +63,61 @@ background:
    {
        background-color: #FFFAF0;
    }
+   .center{
+     text-align: center;
+   }
+
+   .we-like h4{
+      margin: 0 0 0 150px;
+      color: #808080;
+   }
+
+   .we-like p{
+      color: #808080;
+   }
+
+   .icons2  li{
+     display: inline-block;
+     position: relative;
+     list-style: none;
+     margin: 0 10px;
+     height: 70px;
+     width: 70px;
+     padding: 0 15px 12px 15px;
+   }
+
+   .icons2{
+     text-align: center;
+   }
+
+   .icons2  li img{
+      height: 65px;
+      width: 65px;
+      color: #808080;
+   }
+
+   .icons2 img.grayscale {
+     -webkit-filter: grayscale(100%);
+     -moz-filter: grayscale(100%);
+     filter: grayscale(100%);
+     filter: gray;
+     -moz-transition: all 1s ease;
+     -webkit-transition: all 1s ease;
+     transition: all 1s ease;
+     cursor: pointer;
+   }
+
+   .icons2 img.grayscale:hover {
+     -webkit-filter: grayscale(0%);
+     -moz-filter: grayscale(0%);
+     filter: grayscale(0%);
+     filter:none;
+   }
+
+   .grayscale.grayscale-replaced > svg {
+     transition: opacity 1s ease;
+     opacity: 1;
+   }
+
+   .grayscale.grayscale-replaced.grayscale-fade:hover > svg {
+     opacity: 0;
