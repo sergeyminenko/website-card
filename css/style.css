@@ -25,7 +25,6 @@ background:
 
   .carousel {
     height: 150px !important;
-
   }
   .carousel-inner {
     overflow: visible;
@@ -82,7 +81,6 @@ background:
      list-style: none;
      margin: 0 10px;
      height: 70px;
-     width: 70px;
      padding: 0 15px 12px 15px;
    }
 
@@ -125,5 +123,4 @@ background:
      img {
    max-width: 100%
  }
-
- 
+    
