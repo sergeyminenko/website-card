@@ -121,7 +121,11 @@ background:
      opacity: 0;}
 
      img {
-   max-width: 100%
+   max-width: 100%;
+   
+   border-radius: 1em;
+   overflow: hidden;
+
  }
   #up , #more{
     padding: 0 0 0 15px;
