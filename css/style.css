@@ -9,7 +9,7 @@
   background-color: #2E8B57;
 }
  .navbar-brand{
-  font-size: 2.5em;
+  font-size: 2.3em;
 
 }
   li a{
@@ -123,4 +123,6 @@ background:
      img {
    max-width: 100%
  }
-    
+  #up , #more{
+    padding: 0 0 0 15px;
+  }
